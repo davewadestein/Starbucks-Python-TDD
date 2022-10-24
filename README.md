@@ -17,3 +17,6 @@
 * If you're on Windows, and you want a Linux-like environment, here are some options
    * Git bash (when you install Git, you get this for free)
    * WSL (Windows Subsystem for Linux) https://learn.microsoft.com/en-us/windows/wsl/about
+
+## Download Materials (if needed)
+* https://github.com/davewadestein/Python-Fundamentals
