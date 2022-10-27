@@ -2,6 +2,9 @@
 
 * Me
    * dave@developintelligence.com
+ 
+* Survey
+  * https://www.surveymonkey.com/r/3S39PPS
    
 # Install
    * Anaconda distribution https://www.anaconda.com/
