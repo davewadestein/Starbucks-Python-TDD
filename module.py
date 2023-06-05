@@ -28,4 +28,5 @@ if __name__ == '__main__':
     print('Running unit tests...')
     assert func(2) == 4
     assert func('two') == 'twotwo'
+    assert func(2.5) == 5.1
     print('All tests passed!')

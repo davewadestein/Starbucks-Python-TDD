@@ -1,6 +1,12 @@
 # test code for function mean
 
 from mean import mean
+import pytest
+
+
+def test_empty_list():
+    with pytest.raises(TypeError):
+        mean([])
 
 def test_ints():
     num_list = [1, 2, 3, 4, 5]
@@ -12,13 +18,13 @@ def test_zero():
     exp = 3
     assert obs == exp
 
-def test_double():
+def test_result_double():
     num_list = [1, 2, 3, 4]
     obs = mean(num_list)
-    exp = 2.6
+    exp = 2.5
     assert obs == exp
 
-def test_long():
+def test_big_numbers():
     big = 100_000_000
     obs = mean(range(1, big))
     exp = big/2.0
@@ -29,6 +35,6 @@ def test_complex():
     # the arithmetic mean of complex numbers is meaningless
     num_list = [2 + 3j,  3 + 4j,  -32 - 2j]
     obs = mean(num_list)
-    exp = -9+1.6666666666666667j
+    exp = -9 + 1.3333333333j
     assert obs == exp
 
