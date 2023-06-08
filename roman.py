@@ -9,6 +9,7 @@ converter = {
 }
 
 def roman_to_arabic(numeral):
+    """Return Hindu-Arabic equivalent of Roman numeral."""
     total = 0
     for digit in numeral:
         if digit not in converter:
