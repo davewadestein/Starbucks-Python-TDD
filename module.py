@@ -12,8 +12,11 @@
 #
 # from module import func
 
-def doubler(x):
+def func(x):
     return x * 2
+
+def dunder_main():
+    return '__name__ is ' + __name__
 
 # What follows is a straightforward testing capability for this
 # function (or functions). We notice that __name__ is set to
@@ -23,7 +26,7 @@ def doubler(x):
 if __name__ == '__main__':
     # We ran this script, rather than importing it
     print('Running unit tests...')
-    assert doubler(2) == 4
-    assert doubler(2.5) == 5.0
-    assert doubler('two') == 'twotwo'
+    assert func(2) == 4
+    assert func('two') == 'twotwo'
+    assert func(2.5) == 5.1
     print('All tests passed!')
