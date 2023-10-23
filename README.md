@@ -10,10 +10,12 @@
    * install Python proper from https://www.python.org/
 
 ## Cloud-Based Options (if any installation hassles)
+* https://anaconda.cloud/
+  * open up a terminal window
+  * copy/paste this command: __`git clone https://github.com/davewadestein/Python-Fundamentals`__
 * https://colab.research.google.com/
   * at the popup, choose Github and enter https://github.com/davewadestein/Python-Fundamentals
   * if no popup, select "Open Notebook" from file menu
-* https://mybinder.org/v2/gh/davewadestein/Python-Fundamentals/HEAD
 * If you're on Windows, and you want a Linux-like environment, here are some options
    * Git bash (when you install Git, you get this for free)
    * WSL (Windows Subsystem for Linux) https://learn.microsoft.com/en-us/windows/wsl/about
