@@ -22,3 +22,7 @@
 
 ## Download Materials (if needed)
 * https://github.com/davewadestein/Python-Fundamentals
+
+## Recording of TDD material
+* https://pluralsight.zoom.us/rec/share/p3B2wWLa1oMyzL84emeBpazXXB87XKyhh0DfpOwzQWS1swNxdDB0k3dUNTxMwtOj.1WWrv58TkJpmagFE 
+* Passcode: 412%l5ZK
